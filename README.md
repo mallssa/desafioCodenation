@@ -5,6 +5,16 @@ Repositório feito para armazenar o projeto de seleção da codenation para o Ac
 O projeto consiste em um programa de descritografacao da cifra de Cesar. Foi desenvolvido com express pra montar o servidor.
 É consumida uma API dacodenation, fornecida para esse desafio e que para acesso é necessário o uso do seu próprio TOKEN. 
 
+Para executar o projeto, primeiramente é necessário clonar o repositório, através do seguinte comando:
+        
+        $git clone https://github.com/mallssa/desafioCodenation.git
+        
+Depois disso, é necessário entrar no diretório do projeto através do terminal e executar o seguinte comando:
+
+        npm install
+        
+ Para que assim, ocorra a instalacao das dependências necessárias.
+
 
 Para uso do TOKEN, é necessário mudar o arquivo com nome ".env.exemplo" para ".env" e colocar seu TOLKEN no lugar destinado.
 
